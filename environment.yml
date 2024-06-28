@@ -7,6 +7,7 @@ dependencies:
     - matplotlib
     - pytest
     - netcdf4
+    - ipykernel
     - pip
     - pip:
         - pyfftw

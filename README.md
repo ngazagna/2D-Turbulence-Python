@@ -23,6 +23,14 @@ git checkout fftw (or CDS)
 ```
 to switch to the desired branch. The solver is implemented such that functions calls perform the same tasks on each branch.
 
+**Conda environment**
+Install the following environment:
+```shell
+conda env create -f environment.yml
+conda activate 2D-Turbulence-Python
+pip install -e .
+```
+
 ### Running The Tests
 
 Once you are happy with the version you are going to use, check that everything works by running the validation script
